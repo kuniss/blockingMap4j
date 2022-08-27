@@ -1,5 +1,6 @@
-# Welcome to the blockingMap4j wiki!
+:warning: **Important note to all watchers**: This is not the orginal repository but a forked one (not sure why it is not shown as such by GitHub). But originally it was forked from https://github.com/sarveswaran-m/blockingMap4j. Via this repository also official releases are provided.  
 
+# Welcome to the blockingMap4j wiki!
 
 ### 1. What is it? <a name="what"></a>
 Blocking map acts as a key-based synchronizer between producers and consumers in concurrent environment. It is a Map that additionally supports operations that wait for a key to be available when retrieving an element. There can be multiple producers populating & multiple consumers consuming from the same blocking map. BlockingMap is **thread-safe & highly-concurrent**.
